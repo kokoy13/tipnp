@@ -1,4 +1,4 @@
-<!doctype html>
+<!Doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -7,9 +7,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- icon bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="bg-primary py-2 text-end text-light">
+    <!-- Header -->
+    <div class="bg-primary bg-gradientpy-2 text-end text-light">
         <div class="container d-flex align-items-center justify-content-end">
           <div class="">
             <img width="30px" src="img/uk.png" alt="">
@@ -31,7 +33,6 @@
           </div>
         </div>
     </div>
-
     <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
       <div class="container">
         <a class="navbar-brand me-5" href="#"><img src="./assets/img/logo-ti.png" alt="" width=""></a>
@@ -41,28 +42,74 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Profil</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Program Studi</a>
+              <a class="nav-link active" aria-current="page" href="#">Beranda</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Profil
+              </a>
+              <ul class="dropdown-menu bg-dark bg-opacity-75">
+                <li><a class="dropdown-item  bg-primary-hover" href="profile/sejarah.html">Sejarah</a></li>
+                <li><a class="dropdown-item  bg-primary-hover" href="profile/visimisi.html">Visi dan Misi</a></li>
+                <li><a class="dropdown-item  bg-primary-hover" href="profile/tujuanstrategis.html">Tujuan Strategis</a></li>
+                <li><a class="dropdown-item  bg-primary-hover" href="profile/sasaranstrategis.html">Sasaran Strategis</a></li>
+                <li><a class="dropdown-item  bg-primary-hover" href="#">Struktur Organisasi</a></li>
+                <li><a class="dropdown-item  bg-primary-hover" href="#">Pimpinan Jurusan</a></li>
+                <li><a class="dropdown-item  bg-primary-hover" href="#">Dosen / Staf Pengajar</a></li>
+                <li><a class="dropdown-item  bg-primary-hover" href="#">Fasilitas</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Program Studi
+              </a>
+              <ul class="dropdown-menu bg-dark bg-opacity-75">
+                <li><a class="dropdown-item  bg-primary-hover" href="#">D4 Teknologi Rekayasa Perangkat Lunak</a></li>
+                <li><a class="dropdown-item  bg-primary-hover" href="#">D4 Animasi</a></li>
+                <li><a class="dropdown-item  bg-primary-hover" href="#">D3 Manajemen Informatika</a></li>
+                <li><a class="dropdown-item  bg-primary-hover" href="#">D3 Teknik Komputer</a></li>
+                <li><a class="dropdown-item  bg-primary-hover" href="#">D2 Administrasi Jaringan Komputer</a></li>
+                <li><a class="dropdown-item  bg-primary-hover" href="#">D3 Sistem Informasi(PSDKU Tanah Datar)</a></li>
+                <li><a class="dropdown-item  bg-primary-hover" href="#">D3 Manajemen Informatika(PSDKU Pelalawan)</a></li>
+                <li><a class="dropdown-item  bg-primary-hover" href="#">D3 Teknik Komputer(PSDKU Solok Selatan)</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Akademik
+              </a>
+              <ul class="dropdown-menu bg-dark bg-opacity-75">
+                <li><a class="dropdown-item  bg-primary-hover" href="#">Akreditasi</a></li>
+                <li><a class="dropdown-item  bg-primary-hover" href="#">Kalender Akademik</a></li>
+                <li><a class="dropdown-item  bg-primary-hover" href="#">SOP - Panduan</a></li>
+                <li><a class="dropdown-item  bg-primary-hover" href="#">Uang Kuliah Tunggal</a></li>
+                <li><a class="dropdown-item  bg-primary-hover" href="#">Prestasi Mahasiswa</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Penelitian
+              </a>
+              <ul class="dropdown-menu bg-dark bg-opacity-75">
+                <li><a class="dropdown-item  bg-primary-hover" href="#">Jurnal</a></li>
+                <li><a class="dropdown-item  bg-primary-hover" href="#">Academy</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Hubungi Kami
               </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Hubungi Kami</a></li>
-                <li><a class="dropdown-item" href="#">Saran dan Masukan</a></li>
-                <li><a class="dropdown-item" href="#">Chatbot Interaktif</a></li>
+              <ul class="dropdown-menu bg-dark bg-opacity-75">
+                <li><a class="dropdown-item  bg-primary-hover" href="#">Hubungi Kami</a></li>
+                <li><a class="dropdown-item  bg-primary-hover" href="#">Saran dan Masukan</a></li>
+                <li><a class="dropdown-item  bg-primary-hover" href="#">Chatbot Interaktif</a></li>
               </ul>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+
     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="5000">
@@ -398,6 +445,7 @@
         </div>
       </div>
     </div>
+    <!-- footer -->
     <footer class="bg-dark p-4 mt-5">
       <div class="container text-light">
         <div class="row">
